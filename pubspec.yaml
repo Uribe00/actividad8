@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  animate_do: ^3.0.2
+  page_transition: ^2.0.9
+
 
 dev_dependencies:
   flutter_test:
@@ -18,7 +21,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
+
+assets:
+   - assets/menu.png
+   - assets/header-socks.png
+   - assets/socks-icon-left.png
+   - assets/socks-one.png
+   - assets/socks-two.png
+   - assets/socks-icon.png
+   - assets/details-page-header.png
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
   # fonts:
